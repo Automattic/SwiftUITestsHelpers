@@ -1,7 +1,7 @@
 import XCTest
 
 // Credits to https://github.com/onmyway133/blog/issues/628
-extension XCUIElementQuery: Sequence {
+extension XCUIElementQuery: @retroactive Sequence {
 
     public typealias Iterator = AnyIterator<XCUIElement>
 
