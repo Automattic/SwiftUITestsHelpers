@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "4FF145F8-CD4F-49FA-BCAC-E8E11F380212",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testRepetitionMode" : "fixedIterations"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XCUITestHelpers.xcodeproj",
+        "identifier" : "3FF14249266DB46C00138163",
+        "name" : "XCUITestHelpersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:XCUITestHelpers.xcodeproj",
+        "identifier" : "3FF14294266DB85500138163",
+        "name" : "PlaygroundAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -64,6 +64,7 @@
 		3F4D7F93275E308000650353 /* XCUIElement+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Visibility.swift"; sourceTree = "<group>"; };
 		3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUITestHelpers.swift; sourceTree = "<group>"; };
 		3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUITestHelpers.h; sourceTree = "<group>"; };
+		3F8057812D4C473D00FEB5C7 /* UnitAndUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = UnitAndUITests.xctestplan; path = Sources/UnitAndUITests.xctestplan; sourceTree = SOURCE_ROOT; };
 		3F8CDAD826C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIDevice+UserInterfaceStyleTests.swift"; sourceTree = "<group>"; };
 		3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIDeviceUserInterfaceIdiomTests.swift; sourceTree = "<group>"; };
 		3F95FF4326C53A15007731D3 /* XCUIApplication+StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+StatusBar.swift"; sourceTree = "<group>"; };
@@ -166,6 +167,7 @@
 				3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */,
 				3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */,
 				3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */,
+				3F8057812D4C473D00FEB5C7 /* UnitAndUITests.xctestplan */,
 			);
 			name = XCUITestHelpers;
 			path = Sources/XCUITestHelpers;
