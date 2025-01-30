@@ -14,7 +14,7 @@
 #   version, that seems like a reasonable tradeoff to make it easier to move to
 #   newer versions as they are released.
 SIMULATOR_NAME=$1
-SIMULATOR_VERSION='14.5'
+SIMULATOR_VERSION='18.2'
 
 xcodebuild clean test \
   -project 'XCUITestHelpers.xcodeproj' \
