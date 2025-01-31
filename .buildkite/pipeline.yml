@@ -4,7 +4,7 @@ agents:
   queue: 'mac'
 
 steps:
-  - label: "🧪 Build and Test (iPhone 12 Simulator)"
+  - label: "🧪 Build and Test (iPhone 16 Simulator)"
     command: .buildkite/commands/run-tests.sh 'iPhone 16'
 
   # Some tests will fail on an bigger screen than this because they check for out of screen elements
