@@ -31,7 +31,7 @@ class PlaygroundAppUITests: XCTestCase {
         let button = app.buttons["button"]
         // This is a shallow test... To make it actually verify asynchronous behavior, we should
         // make the button start as interactive and update after a few moments.
-        XCTAssertTrue(button.waitForIsHittable())
+        XCTAssertTrue(button.waitForIsHittable(timeout: 10.0))
 
         button.tap()
 
